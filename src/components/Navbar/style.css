@@ -1,0 +1,18 @@
+nav {
+    box-shadow: 0 4px 2px -2px gray;
+    background-color: rgb(236, 233, 233);
+}
+
+.navbar-brand {
+    font-size: 250%;
+    margin-left: 50px;
+}
+
+.navbar-collapse {
+    margin-right: 30px;
+    font-size: 120%;
+}
+
+.nav-link {
+    cursor: pointer;
+}
