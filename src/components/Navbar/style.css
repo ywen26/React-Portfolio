@@ -4,8 +4,12 @@ nav {
 }
 
 .navbar-brand {
-    font-size: 250%;
     margin-left: 50px;
+    /* font-size: 500%; */
+}
+
+span {
+    font-size: 200%;
 }
 
 .navbar-collapse {

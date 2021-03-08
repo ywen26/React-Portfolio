@@ -6,7 +6,7 @@ function Navbar() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light">
         <Link className="navbar-brand font-weight-bold" to="/">
-          Yuwen Yu
+          <span>Yuwen Yu</span>
         </Link>
         <div className="navbar-collapse justify-content-end">
           <ul className="navbar-nav">
