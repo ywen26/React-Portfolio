@@ -1,0 +1,90 @@
+a:hover {
+    text-decoration: none;
+}
+
+.work-title {
+    margin-top: 20px;
+}
+
+.work {
+    transition: .5s ease;
+    cursor: pointer;
+    width: 80%;
+    height: 250px;
+    border: 3px solid grey;
+}
+
+.work-1 {
+    background-image: url("./images/project-1.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-left: 13%;
+}
+
+.work-2 {
+    background-image: url("./images/work-1.png");
+    background-size: cover;
+    background-position: top;
+    margin-left: 5%;
+}
+
+.work-3 {
+    background-image: url("./images/work-2.png");
+    background-size: cover;
+    background-position: top;
+    margin-left: 13%;
+}
+
+.work-4 {
+    background-image: url("./images/work-3.png");
+    background-size: cover;
+    background-position: top;
+    margin-left: 5%;
+}
+
+.work-5 {
+    background-image: url("./images/work-4.png");
+    background-size: cover;
+    background-position: top;
+    margin-left: 13%;
+}
+
+.work-6 {
+    background-image: url("./images/work-5.jpg");
+    background-size: cover;
+    background-position: top;
+    margin-left: 5%;
+}
+
+.work-7 {
+    background-image: url("./images/work-6.jpg");
+    background-size: cover;
+    background-position: top;
+    margin-left: 13%;
+}
+
+.work-8 {
+    background-image: url("./images/work-7.jpg");
+    background-size: cover;
+    background-position: top;
+    margin-left: 5%;
+}
+
+/* Below are the designs for showing project title when hover the selection */
+.work:hover .title {
+    opacity: 1;
+    display: block;
+}
+
+.work:hover {
+    background-image: url("./images/bc-image.png");
+}
+
+.title {
+    display: none;
+    color: white;
+    transition: .5s ease;
+    text-align: center;
+    margin-top: 50px;
+
+}
