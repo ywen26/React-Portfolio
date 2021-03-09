@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import resume from "../../docs/Resume-YuwenY.pdf";
 
 function Navbar() {
     return (
@@ -21,7 +22,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="./assets/resume/Resume-YuwenY.pdf" download>Resume</a>
+              <a className="nav-link" href={resume} download>Resume</a>
             </li>
           </ul>
         </div>
