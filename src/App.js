@@ -5,11 +5,11 @@ import Wrapper from "./components/Wrapper"
 import About from "./pages/About";
 import Contact from "./components/ContactList";
 import Projects from "./pages/Projects";
-import { HashRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 
 function App() {
   return (
-    <HashRouter basename='/'>
+    <BrowserRouter basename='/'>
       <div>
         <Navbar />
         <Wrapper>
@@ -23,7 +23,7 @@ function App() {
         </div>
         <Footer />
       </div>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
