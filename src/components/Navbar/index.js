@@ -11,7 +11,7 @@ function Navbar() {
         </Link>
         <div className="navbar-collapse justify-content-end">
           <ul className="navbar-nav">
-            <li class="nav-item active">
+            <li className="nav-item active">
               <Link className="nav-link" to="/">
                 About
               </Link>
