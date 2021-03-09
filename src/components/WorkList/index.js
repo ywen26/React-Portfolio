@@ -3,7 +3,7 @@ import "./style.css";
 
 function WorkList() {
     return (
-      <div className="d-flex flex-wrap">
+      <div className="d-flex flex-wrap" style={{ width: "100%" }}>
         <div className="work work-1 col-lg-4 mt-5">
           <a href="https://am-white.github.io/Nasa-Search-Engine/">
             <h5 class="title">NASA Image Search Engine</h5>
