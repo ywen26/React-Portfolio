@@ -4,7 +4,7 @@ import "./style.css";
 function Introduction() {
   return (
     <div className="col-lg-7 mt-5 pl-5">
-      <h3>Yuwen Yu</h3>
+      <h1>Yuwen Yu</h1>
       <div className="intro">
         <p>
           Welcome to my web pages! Currently I am a boot camp student earning coding skills 

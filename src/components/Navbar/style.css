@@ -11,18 +11,19 @@ img {
     font-size: 50%;
 }
 
-.navbar-collapse {
+.option {
     margin-right: 30px;
     font-size: 120%;
+    margin-left: 40em;
 }
 
 .nav-link {
     cursor: pointer;
 }
 
-/* @media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .navbar-brand {
-        margin-left: 90px;
+        margin-left: 0px;
     }
 
     .navbar-nav {
@@ -31,4 +32,8 @@ img {
         flex-direction: row;
         justify-content: space-around;
     }
-} */
+
+    .option {
+        margin-left: -40em;
+    }
+}

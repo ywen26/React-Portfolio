@@ -12,7 +12,7 @@ function Navbar() {
             <img src={logo} alt="logo"/>
           </span>
         </Link>
-        <div className="navbar-collapse justify-content-end">
+        <div className="option">
           <ul className="navbar-nav">
             <li className="nav-item active">
               <Link className="nav-link" to="/">
@@ -21,7 +21,7 @@ function Navbar() {
             </li>
             <li className="nav-item active">
               <Link className="nav-link" to="/projects">
-                Work
+                Projects
               </Link>
             </li>
             <li className="nav-item active">
