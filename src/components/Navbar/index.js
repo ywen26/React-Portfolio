@@ -2,12 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 import resume from "../../docs/Resume-YuwenY.pdf";
+import logo from "../../images/logo.png";
 
 function Navbar() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light">
         <Link className="navbar-brand font-weight-bold" to="/">
-          <span>Yuwen Yu</span>
+          <span>
+            <img src={logo} alt="logo"/>
+          </span>
         </Link>
         <div className="navbar-collapse justify-content-end">
           <ul className="navbar-nav">
