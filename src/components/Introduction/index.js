@@ -7,7 +7,7 @@ function Introduction() {
       <h3>Yuwen Yu</h3>
       <div className="intro">
         <p>
-          Welcome to my web page! Currently I am a boot camp student earning coding skills 
+          Welcome to my web pages! Currently I am a boot camp student earning coding skills 
           of full stack development. I am actively seeking career opportunities as full 
           stack developer and preparing to apply master degree in the fields of web development 
           at the same time. I am going to share all my exciting projects work here and will 

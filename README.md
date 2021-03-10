@@ -12,6 +12,16 @@ This is the updated version of my personal portfolio regarding to my coding proj
 * Node.js
 * Bootstrap
 
+## Appearance and Functionality
+
+Below are the Home/About Me page:
+![Demo](src/images/sc-1.png)
+
+And the projects page:
+![Demo](src/images/sc-2.png)
+
+Here is the deployed link of the portfolio: [React Portfolio](https://yuwenyu.herokuapp.com/)
+
 ## URL Sources
 
 Feel free to check the application repository: [https://github.com/ywen26/React-Portfolio](https://github.com/ywen26/React-Portfolio)
