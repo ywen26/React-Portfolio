@@ -65,8 +65,15 @@ function WorkList() {
         </div>
 
         <div className="work work-7 col-lg-4 mt-5">
-            <h5 className="title title-1">Coming soon...</h5>
+            <h5 className="title title-1">Google Books Search</h5>
+            <a href="https://find-your-books.herokuapp.com/">
+            <h6 className="title title-1">Deploy Link</h6>
+          </a>
+          <a href="https://github.com/ywen26/Google-Books-Search">
+            <h6 className="title">Repository</h6>
+          </a>
         </div>
+
         <div className="work work-8 col-lg-4 mt-5">
             <h5 className="title title-1">Coming soon...</h5>
         </div>
